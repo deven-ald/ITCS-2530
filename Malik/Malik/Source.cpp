@@ -12,6 +12,61 @@ ITCS 2530
 //Allows me to not have to type std::
 using namespace std;
 //Rounds Number to nearest tenth some of this code was inspired by w3Schools but I count that as documentation 
+
+//Allows functions to be used
+double RoundHundreth(double);
+int GasolineTank();
+int HardDrive();
+void Milk();
+void MetricTon();
+void Cindy();
+
+int main()
+{
+	//counter variable
+	int h = 0;
+	//decision variable
+	int entrypoint;
+	while (h < 1) {
+		//prompts the user for a selection
+		cout << "Please enter a programming problem number:  (11, 14, 16, 22, or 23)" << endl;
+		//obtains that selection
+		cin >> entrypoint;
+		
+		if (entrypoint == 11) 
+		{
+			GasolineTank();
+		}
+		else if (entrypoint == 14)
+		{
+			HardDrive();
+		}
+		else if (entrypoint == 16)
+		{
+			Milk();
+		}
+		else if (entrypoint == 22)
+		{
+			MetricTon();
+		}
+		else if (entrypoint == 23)
+		{
+			Cindy();
+		}
+
+
+		//Exit Option 
+		string Exitoption;
+		cout << "Would you like to exit? (Y to exit or N to go back to selection)" << endl;
+		cin >> Exitoption;
+		if (Exitoption == "Y")
+		{
+			h = 1;
+		}
+	}
+	return 0;
+}
+
 double RoundHundreth(double Num)
 {
 	double r;
@@ -236,49 +291,4 @@ void Cindy()
 			a = 1;
 		}
 	}
-}
-int main()
-{
-	//counter variable
-	int h = 0;
-	//decision variable
-	int entrypoint;
-	while (h < 1) {
-		//prompts the user for a selection
-		cout << "Please enter a programming problem number:  (11, 14, 16, 22, or 23)" << endl;
-		//obtains that selection
-		cin >> entrypoint;
-		
-		if (entrypoint == 11) 
-		{
-			GasolineTank();
-		}
-		else if (entrypoint == 14)
-		{
-			HardDrive();
-		}
-		else if (entrypoint == 16)
-		{
-			Milk();
-		}
-		else if (entrypoint == 22)
-		{
-			MetricTon();
-		}
-		else if (entrypoint == 23)
-		{
-			Cindy();
-		}
-
-
-		//Exit Option 
-		string Exitoption;
-		cout << "Would you like to exit? (Y to exit or N to go back to selection)" << endl;
-		cin >> Exitoption;
-		if (Exitoption == "Y")
-		{
-			h = 1;
-		}
-	}
-	return 0;
 }
