@@ -1,0 +1,22 @@
+************************************************************************
+*Welcome*Welcome*Welcome*Welcome*Welcome*Welcome*Welcome*Welcome*Welcome
+************************************************************************
+
+Hello! 
+
+This program was created to for solving the Malik Programming Problems
+2, 4, 6, and 8 from chapter 3. Please select from the following menu:
+
+Note: Enter what is encapsulated in brackets
+
+For question 2 [2]
+For question 4 [4]
+For question 6 [6]
+For question 8 [8]
+
+
+Enter 1 to Terminate Program
+
+************************************************************************
+*Welcome*Welcome*Welcome*Welcome*Welcome*Welcome*Welcome*Welcome*Welcome
+************************************************************************

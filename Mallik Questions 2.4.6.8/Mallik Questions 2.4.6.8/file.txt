@@ -1,0 +1,28 @@
+TWEAKED CODE:
+
+#include <iostream>
+#include <iomanip>
+#include <math.h>
+using namespace std;
+
+
+int main()
+{
+	const double PI = 3.14159;
+	double height;
+	double radius;
+
+	cout << "Enter the height of the cylinder: " << endl;
+	cin >> height;
+	cout << "Enter the radius of the base of the cylinder: " << endl;
+	cin >> radius;
+	cout << fixed << showpoint << setprecision(2);
+	double Volume = PI * pow(radius, 2.0) * height;
+	cout << "Volume of the cylinder = " << Volume << endl;
+	double surfacearea = 2 * PI * radius * height + 2 * PI * pow(radius, 2.0);
+	cout << "Surface area: " << 2 * PI * radius * height + 2 * PI * pow(radius, 2.0) << endl;
+	
+	return 0;
+}
+
+
