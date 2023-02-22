@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\School - Devendrajeet Ranjan Jha\ITCS-2530\Chapter 6\Chapter 6\Chapter 6\Source.cpp(178,7): warning C4101: 'counter': unreferenced local variable
+C:\School - Devendrajeet Ranjan Jha\ITCS-2530\Chapter 6\Chapter 6\Chapter 6\Source.cpp(226,24): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Chapter 6.vcxproj -> C:\School - Devendrajeet Ranjan Jha\ITCS-2530\Chapter 6\Chapter 6\x64\Debug\Chapter 6.exe
