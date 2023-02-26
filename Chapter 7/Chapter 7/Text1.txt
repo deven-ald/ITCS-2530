@@ -1,0 +1,24 @@
+ ____ ____ ____ ____ ____ ____ _________ ____ ____ ____ ____ 
+||N |||u |||m |||b |||e |||r |||       |||G |||a |||m |||e ||
+||__|||__|||__|||__|||__|||__|||_______|||__|||__|||__|||__||
+|/__\|/__\|/__\|/__\|/__\|/__\|/_______\|/__\|/__\|/__\|/__\|
+
+NOTE: If your number, after executing these operations, is 
+less than ten, the program will display your number, and 
+subsequently add ten to it. The new number being manipulated
+will be the single-digit number plus ten, and it will be 
+displyed on-screen in the "Your Number: " section.
+
+Operations: 
+
+(a) Double
+(b) Reverse Digits
+(c) Raise Number to power of 2, 3, or 4 (Randomly Chosen)
+(d) Sum digits
+(e) IF IT IS A 2 DIGIT: Raise the first to the power of
+the second
+(f) IF IT IS A 3 DIGIT && The last digit is <=4 then
+num^lastdigit
+(g) TO QUIT
+
+Your Number:
