@@ -1,0 +1,4 @@
+﻿  Solution.cpp
+C:\Users\deven\OneDrive\Documents for School\Chapter 9(real)\Chapter 9(real)\Solution.cpp(104,44): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\deven\OneDrive\Documents for School\Chapter 9(real)\Chapter 9(real)\Solution.cpp(193): warning C4715: 'endloop': not all control paths return a value
+  Chapter 9(real).vcxproj -> C:\Users\deven\OneDrive\Documents for School\Chapter 9(real)\x64\Debug\Chapter 9(real).exe
