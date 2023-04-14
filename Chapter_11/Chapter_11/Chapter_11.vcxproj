@@ -127,18 +127,30 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="addressType.cpp" />
+    <ClCompile Include="circleType.cpp" />
     <ClCompile Include="clockType.cpp" />
+    <ClCompile Include="cylinderType.cpp" />
+    <ClCompile Include="dateType.cpp" />
     <ClCompile Include="deven.cpp" />
     <ClCompile Include="extClockType.cpp" />
+    <ClCompile Include="extPersonType.cpp" />
     <ClCompile Include="MAIN.cpp" />
+    <ClCompile Include="personType.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Text.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="addressType.h" />
+    <ClInclude Include="circleType.h" />
     <ClInclude Include="clockType.h" />
+    <ClInclude Include="cylinderType.h" />
+    <ClInclude Include="dateType.h" />
     <ClInclude Include="deven.h" />
     <ClInclude Include="extClockType.h" />
+    <ClInclude Include="extPersonType.h" />
+    <ClInclude Include="personType.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

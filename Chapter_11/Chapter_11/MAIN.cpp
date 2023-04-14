@@ -1,11 +1,11 @@
 #include "deven.h"
 #include "extClockType.h"
-
+#include "cylinderType.h"
 deven dev;
 
 using namespace std;
 
-void runext();
+void runext(), runcyl();
 
 int main() {
 	int choice;
@@ -21,7 +21,8 @@ int main() {
 			c4 = (choice == 9);
 		if (c1)
 			runext();
-
+		else if (c2)
+			runcyl();
 		dev.loopend(condition);
 	}
 	return 0;
@@ -43,4 +44,20 @@ void runext() {
 		cout << "A is NOT equal to your clock 'b'" << endl;
 
 
+}
+void runcyl()
+{
+	system("cls");
+	cylinderType cyl(13, 12);
+	double volume = cyl.volume();
+	double surfarea = cyl.surfaceArea();
+	cout << endl <<  "Volume: " << volume << endl << "Surface area: " << surfarea << endl;
+	dev.print("Afer changing height and center: ");
+	cyl.setRadius(10);
+	cyl.setHeight(9000);
+	volume = cyl.volume();
+	surfarea = cyl.surfaceArea();
+	cyl.setCenter(10, 10);
+	cout << endl << "Volume: " << volume << endl << "Surface area: " << surfarea << endl;
+	system("pause");
 }
