@@ -1,0 +1,5 @@
+﻿  MAIN.cpp
+C:\Users\deven\OneDrive - Macomb Community College\Desktop\Chapter_12(1)\Chapter_12(1)\MAIN.cpp(60,20): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\deven\OneDrive - Macomb Community College\Desktop\Chapter_12(1)\Chapter_12(1)\MAIN.cpp(109,31): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\deven\OneDrive - Macomb Community College\Desktop\Chapter_12(1)\Chapter_12(1)\MAIN.cpp(110,21): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  Chapter_12(1).vcxproj -> C:\Users\deven\OneDrive - Macomb Community College\Desktop\Chapter_12(1)\x64\Debug\Chapter_12(1).exe
